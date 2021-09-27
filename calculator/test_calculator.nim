@@ -25,3 +25,6 @@ suite "Calculator":
 
     test "fibonacci":
         check fib(11) == 144
+
+    test "average":
+        check average([100.0,50.0,65.0,40.0]) == 63.75
